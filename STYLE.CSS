@@ -380,3 +380,35 @@ h1 {
     }
     
 }
+
+.elogo{
+    width: 200px;
+    justify-content: left;
+}
+
+.eelogo{
+    width: 200px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.footer p{
+    text-align: center;
+    font-family: albertus medium;
+    font-weight: bold;
+
+}
+
+.links {
+    list-style: none; /* Remove bullet points */
+    padding: 0;        /* Remove default padding */
+    text-align: center; /* Center the links within the ul */
+}
+
+
