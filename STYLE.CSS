@@ -1,0 +1,382 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.font1 {
+    position: relative;
+    top: 10px;
+    font-family: "Pacifico", serif;
+    color: white;
+    font-size: xx-large;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: antiquewhite;
+}
+
+.navbar-toggler-icon {
+    background-color: antiquewhite;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    font-family: albertus medium;
+    margin: 0px 25px;
+    transition: 0.5s;
+}
+
+
+.nav-link:hover {
+    color: red;
+    scale: 1.1;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    margin-bottom: 9px;
+    margin-left: 9px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.img2 {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: auto;
+    height: 500px;
+    padding-bottom: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 0px 5px yellow);
+}
+
+.writing {
+    width: 40%;
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: albertus medium;
+    color: yellow;
+    font-size: 90px;
+    font-weight: bolder;
+    filter: drop-shadow(0px 0px 5px yellow);
+}
+
+.writing h2 {
+    font-family: albertus medium;
+    color: white;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 720px) {
+    .writing {
+        width: auto;
+        text-align: center;
+
+    }
+
+    .writing h1 {
+        font-size: 50px;
+    }
+
+    .img2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .img1{
+        padding-top: 0px;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 970px){
+    .writing {
+        width: auto;
+    }
+
+    .writing h1{
+        font-size: 50px;
+    }
+
+    .img1{
+        height: 1000px;
+    }
+}
+
+.button {
+    
+    background-color: yellow;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.button h2 {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.button:hover{
+    background-color: rgb(161, 153, 153);
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 420px) {
+    .writing{
+        margin-top: -300px;
+    }
+
+}
+
+.about_us{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    background-color: yellow;
+    border-radius: 12px;
+    justify-content: space-around;
+    filter: drop-shadow(0px 0px 4px grey);
+} 
+
+.content{
+    width: 50%;
+    justify-items: center;
+    font-weight: bold;
+}
+
+.content>h1{
+    text-align: center;
+    font-family: "Pacifico", serif;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 920px) {
+    .content{
+        width:90%;
+    }
+
+}
+
+.links{
+    width: 5vm;
+}
+
+@media screen and (max-width: 960px){
+    .img1{
+        height: 1100px;
+    }
+}
+
+.mcon{
+    display: flex;
+    justify-content: center;
+}
+
+.mcon h1{
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{ 
+    width: 100px;
+    text-align: center;
+    font-family: albertus medium;
+    padding: 4px;
+    font-size: x-large;
+    background-color: aqua;
+    margin-left: 9px;
+}
+
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.i1{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    border-radius: 3%;
+    background-color: rgb(211, 208, 205);
+    padding: 12px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+ 
+}
+
+.ii{
+    margin: 0 auto;
+    width: 90%;
+    height: 250px; 
+    border-radius: 5%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 960px) {
+    .i1{
+        width: 90%;
+        flex-direction: row;
+        justify-content: left;
+        margin-left: 0;
+        
+    margin: 10px;
+    }
+
+    .ii{
+        width: 80%;
+        margin-left: 0;
+        height: 230px;
+    }
+
+    .conten{ 
+    justify-content: left;
+    width: 80%;
+    }
+}
+
+.conten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 90%;
+}
+
+.mb{
+    background-color: black; 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 1.5s;
+    border: none;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.mb:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.fpic{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    border-radius: 9px;
+    flex-direction: column;
+    margin: 18px;
+}
+
+.feed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feedback{
+    text-align: center;
+}
+
+
+
+.customer{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width:960px){
+    .customer{
+        width: 200px;
+        height: 200px;
+    }
+
+    .fpic{
+        width: 100%;
+    }
+    
+}
