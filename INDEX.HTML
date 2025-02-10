@@ -19,9 +19,11 @@
 </head>
 
 <body>
-    <a href="#home" style="color: rgba(255, 255, 37, 0.801);"><div class="spinner-grow" role="status" style="position: fixed; right: 4px; top: 0px; z-index: 1;">
-        <span class="visually-hidden" >Loading...</span>
-    </div></a>
+    <a href="#home" style="color: rgba(235, 235, 235, 0.849);">
+        <div class="spinner-grow" role="status" style="position: fixed; right: 4px; top: 0px; z-index: 1;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </a>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-dark" style="margin: 0px;" id="home">
             <div class="container-fluid">
@@ -171,21 +173,80 @@
 
         <section class="app">
             <div class="apps">
-                <div class="feed" style="background-image: url(./GALLERY/bg3.jpg);">
+                <div class="feed"
+                    style="background-image: url(./GALLERY/bg3.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
                     <div class="feedback">
                         <h1 style="font-size: 55px;color: aliceblue;"><span style="font-weight: normal;">FEEDBACK OF
                             </span>OUR CUSTOMER</h1>
                     </div>
                     <div class="fpic">
-                        <div class="customer" style="background-image: url(./GALLERY/mypic2.png);"></div>
-                        <p style="text-align: justify; font-weight: bold; width: 90%;" class="cp">
-
-                            <br><br>
-                            “knaksdfk skn ksadkfjnsk nkfsajnd kjsandkf naskdjfn ksajdnfk
-                            jskdnfaklsdnfkans kfsadkjf ksadnf ksajdnfk nsadlkf nsaldkf ns
-                            aknsdfnkasj ndkfnsaklfjnksjdnf ksjnadkfnskdfaksdjfak”
-                            <br><br><br>
-                        </p>
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./GALLERY/bg4.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="customer" style="background-image: url(./GALLERY/mypic2.png);">
+                                        </div>
+                                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quia sequi
+                                            consequatur doloribus, maxime, eum amet totam odit, tempora provident soluta
+                                            dolores fugit officiis nihil. Voluptas odio atque quasi saepe officia.
+                                            Incidunt eum quo totam. Adipisci delectus expedita nam, veritatis ut
+                                            deleniti ad? Voluptate animi sequi dolorem officiis ex iure voluptatem hic
+                                            error, quo, eum natus vero voluptates, itaque facilis</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./GALLERY/bg4.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <img src="./GALLERY/bg4.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="customer" style="background-image: url(./GALLERY/mypic2.png);">
+                                        </div>
+                                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quia sequi
+                                            consequatur doloribus, maxime, eum amet totam odit, tempora provident soluta
+                                            dolores fugit officiis nihil. Voluptas odio atque quasi saepe officia.
+                                            Incidunt eum quo totam. Adipisci delectus expedita nam, veritatis ut
+                                            deleniti ad? Voluptate animi sequi dolorem officiis ex iure voluptatem hic
+                                            error, quo, eum natus vero voluptates, itaque facilis</h5>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./GALLERY/bg4.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <img src="./GALLERY/bg4.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <div class="customer" style="background-image: url(./GALLERY/mypic2.png);">
+                                            </div>
+                                            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quia sequi
+                                                consequatur doloribus, maxime, eum amet totam odit, tempora provident soluta
+                                                dolores fugit officiis nihil. Voluptas odio atque quasi saepe officia.
+                                                Incidunt eum quo totam. Adipisci delectus expedita nam, veritatis ut
+                                                deleniti ad? Voluptate animi sequi dolorem officiis ex iure voluptatem hic
+                                                error, quo, eum natus vero voluptates, itaque facilis</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
 
                     <br>
@@ -207,7 +268,7 @@
 
                 </div>
             </div>
-            
+
         </section>
         <br><br>
 
@@ -221,11 +282,23 @@
                     <h2 style="text-align: center; 
                     font-family: albertus medium;
                     font-weight: bold;">Quick links</h2>
+
+                    <h5 style="text-align: center; 
+                    font-family: albertus medium;
+                    font-weight: bold;">Click here</h5>
                     <ul style="list-style-type: none;">
-                        <a href="#home" style=" text-decoration: none; color: black; font-weight: bold;"><li>Home</li></a>
-                        <a href="#contact" style=" text-decoration: none; color: black; font-weight: bold;"><li>Contact</li></a>
-                        <a href="#order" style=" text-decoration: none; color: black; font-weight: bold;"><li>Order</li></a>
-                        <a href="#" style=" text-decoration: none; color: black; font-weight: bold;"><li>Terms and condition</li></a>
+                        <a href="#home" style=" text-decoration: none; color: black; font-weight: bold;">
+                            <li style="background-color: rgb(219, 213, 205);">Home</li>
+                        </a>
+                        <a href="#contact" style=" text-decoration: none; color: black; font-weight: bold;">
+                            <li style="background-color: rgb(219, 213, 205);">Contact</li>
+                        </a>
+                        <a href="#order" style=" text-decoration: none; color: black; font-weight: bold;">
+                            <li style="background-color: rgb(219, 213, 205);">Order</li>
+                        </a>
+                        <a href="#" style=" text-decoration: none; color: black; font-weight: bold; ">
+                            <li style="background-color: rgb(219, 213, 205);">Terms and condition</li>
+                        </a>
                     </ul>
                 </div>
             </div>

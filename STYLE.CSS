@@ -411,4 +411,6 @@ h1 {
     text-align: center; /* Center the links within the ul */
 }
 
-
+ul>a:hover{
+    transform: scale(1.1);
+}
