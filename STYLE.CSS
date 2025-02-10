@@ -121,6 +121,7 @@ h1 {
     .writing {
         width: auto;
         text-align: center;
+        padding-bottom: 400px;
 
     }
 
@@ -131,6 +132,7 @@ h1 {
     .img2 {
         width: 100%;
         height: auto;
+        padding-bottom: 20px;
     }
 
     .img1{
@@ -150,8 +152,13 @@ h1 {
     }
 
     .img1{
-        height: 1000px;
+        height: 800px;
     }
+
+    .writing{
+        margin-top: -20px;
+    }
+
 }
 
 .button {
@@ -177,7 +184,7 @@ h1 {
 
 @media screen and (max-width: 420px) {
     .writing{
-        margin-top: -300px;
+        margin-top: -20px;
     }
 
 }
@@ -414,3 +421,4 @@ h1 {
 ul>a:hover{
     transform: scale(1.1);
 }
+
